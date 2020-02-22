@@ -2,6 +2,8 @@
 
 To encrypt/decrypt the configuration you don't want to commit to source control as plain text.
 
+[![Actions Status](https://github.com/terry-yip/HybridCrypting/workflows/DotNetCore/badge.svg)](https://github.com/terry-yip/HybridCrypting/actions)
+
 ## Getting Started
 
 1. Prepare RSA private/public keys. 
