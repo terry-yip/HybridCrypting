@@ -30,7 +30,7 @@ To encrypt/decrypt the configuration you don't want to commit to source control 
 
 ### Installing
 
-TODO: Upload to nuget
+Install-Package HybridCrypting
 
 ## Built With
 
