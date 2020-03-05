@@ -36,7 +36,7 @@ Install-Package HybridCrypting
 
 * [Dotnet](https://github.com/dotnet/core) - Dotnet Core Framework
 * [Nuget](https://nuget.org) - Package Management
-* [BouncyCastle.NetCore](https://github.com/chrishaly/bc-csharp) - Bouncy Castle C# Distribution
+* [Portable.BouncyCastle](https://github.com/novotnyllc/bc-csharp) - BouncyCastle portable version
 
 ## Versioning
 
