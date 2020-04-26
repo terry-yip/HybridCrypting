@@ -5,7 +5,7 @@
     <Version>1.1</Version>
     <Authors>Terry Yip</Authors>
     <Company>Terry Yip</Company>
-    <Description>To encrypt/decrypt the configuration you don't want to commit to source control as plain text.</Description>
+    <Description>Encrypt/decrypt text with asymmetric and symmetric hybrid way.</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/terry-yip/HybridCrypting</RepositoryUrl>
   </PropertyGroup>

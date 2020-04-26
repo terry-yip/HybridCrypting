@@ -1,6 +1,6 @@
 # HybridCrypting
 
-To encrypt/decrypt text with asymmetric and symmetric hybrid way.
+Encrypt/decrypt text with asymmetric and symmetric hybrid way.
 
 [![Actions Status](https://github.com/terry-yip/HybridCrypting/workflows/DotNetCore/badge.svg)](https://github.com/terry-yip/HybridCrypting/actions)
 
