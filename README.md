@@ -24,6 +24,21 @@ To encrypt/decrypt the configuration you don't want to commit to source control 
    var decrypted = HybridCryptor.Decrypt(privateKeyPath, cipher);
    ```
 
+## Overview
+
+The idea of HybridCrypting is inspired by TLS/SSL handshake. Use asymmetric way to encrypt/decrypt the key cipher and symmetric way to encrypt/decrypt the real content. The benifit is to keep the process both secure(only public key needed for encrypt and the key is totally new generated every time) and efficiant(the key length is only 256, and the real long content is encrypted with symmetric way).
+
+Steps of encrypting
+1. Generate a totally new key (length 256) for encrypting the real content later.
+2. Use asymmetric encrypting (public key encrypting) to encrypt the key and get a key cipher.
+3. Use the key to encrypt the real content with symmetric encrypting.
+4. Combine the key cipher and the encrypted content together and output the encrypted bytes
+
+Steps of decrypting
+1. Split the encrypted bytes, get the key cipher and encrypted content.
+2. Use asymmetric decrypting (private key decrypting) to decrypt the cipher and get the key.
+3. Use the key to decrypt the encrypted content with symmetric decrypting. Then you get the real content back.
+
 ### Prerequisites
 
 - Dotnet Core Framework
