@@ -16,7 +16,7 @@ Encrypt/decrypt text with asymmetric and symmetric hybrid way.
    ```
 3. Decrypt the cipher with private key.
    ```
-   var decrypted = HybridCryptor.Decrypt(privateKeyPath, cipher);
+   var text = HybridCryptor.Decrypt(privateKeyPath, cipher);
    ```
 
 ## Overview
